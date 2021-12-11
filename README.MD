@@ -24,3 +24,8 @@ Chatbots have the potential to simplify and automate many existing tasks and to 
 * Execute the Code using the following command
   > `python manage.py runserver`
 * Open the App on Browser using the server link to interact with the Chatbot.
+
+## Images
+
+![Screenshot (53)](https://user-images.githubusercontent.com/78525041/145661482-d72537d6-bb4a-4d1b-998a-1f7abcf8a8c0.png)
+![Screenshot (55)](https://user-images.githubusercontent.com/78525041/145661486-e79915da-e638-47f9-af43-28b8a42a213b.png)
