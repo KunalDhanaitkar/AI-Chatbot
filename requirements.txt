@@ -1,0 +1,6 @@
+Django==3.2.9
+nltk==3.6.5
+numpy==1.21.4
+PyMySQL==1.0.2
+tensorflow==2.7.0
+tflearn==0.5.0

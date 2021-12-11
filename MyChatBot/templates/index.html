@@ -1,0 +1,53 @@
+{% load static %}
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<title>Chatbot Application</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'default.css' %}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h1><font color="orange" size=6>Chatbot for Business</font></h1>
+	  <marquee><font color="pink" size=4>CHATBOT</font></marquee>
+    </div>
+   
+  
+    </div>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="{% url 'MyChatBot' %}">Home</a></li>
+      <li><a href="{% url 'User' %}">User</a></li>
+      <li><a href="{% url 'Register' %}">Register Here</a></li>
+      
+   </ul>
+  </div>
+  <div id="page">
+   <div id="content">
+      <div class="post">
+        <div class="title">
+          <h2>Chatbot for Rehabilitation Center Business</h2>
+         </div>
+        <div class="entry">
+		 <br/><br/><br/>
+{{ data }}
+	 
+	 <br>
+          <p><img src="{% static 'images/index.jpeg' %}" alt="" width="890" height="200" class="left" /><p></p><font size="4" color="white">
+          <center><br/>Chatbot for Business by Kunal Dhanaitkar and Samar Reddy</center></font></p>
+
+ <p> Chatbots have the potential to simplify and automate many existing tasks and to implement this Chatbot, we are using Python Deep Learning Neural Networks and NLTK (Natural Language Processing API) to process train and test text data.</p>
+          </div>
+        The Chatbot will provide solutions to various business issues in an instant strategy as it will be integrated with various AI algorithms in order to provide solutions faster and offer variety of responses to the customer.
+      </div>
+     
+       
+       
+    </div>
+    
+  </div>
+
+</body>
+</html>
